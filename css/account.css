@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+header{
+    background-color: gray;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+
+header button{
+    font-size: 20px;
+    background-color: blue;
+    border: none;
+    outline: none;
+    padding: 5px;
+    color: #fff;
+
+}
+
+header button:hover{
+    cursor: pointer;
+    background-color: rgb(54, 54, 148);
+}
+
+header p{
+    font-size: 30px;
+    color: #fff;
+}
+
+h2{
+    margin: 1em 0 0 5px;
+    font-size: 1.5em;
+    
+}
+
+
+
+.table thead td{
+    padding: 10px;
+    background-color: rgb(39, 39, 183);
+    color:#fff;
+}
+
+.table{
+    background-color: blue;
+    padding: 5px;
+    width: 60%;
+    margin: auto;
+    color: #fff;
+    text-align: center;
+
+}
+
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    background-color: gray;
+    padding: 15px;
+    margin-top: 24em;
+    text-decoration: none;
+}
+
+footer div a{
+    text-decoration: none;
+    color: #000;
+}

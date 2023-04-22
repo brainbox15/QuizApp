@@ -36,6 +36,8 @@
             font-size: 30px;
         }
 
+        
+
     </style>
 </head>
 
@@ -75,7 +77,7 @@ $students = mysqli_query($connect, 'SELECT * FROM users');
         <td><?= $student['email'] ?></td>
         <td><?= $student['phone'] ?></td>
         <td>
-        <button><a href="delete-student.php?ID=<?= $student['ID'] ?>">Delete</a></button>
+        <button><a href="delete-user.php?ID=<?= $student['ID'] ?>">Delete</a></button>
 
         </td>
 

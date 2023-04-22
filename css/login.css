@@ -2,12 +2,46 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: cursive;
 }
 
 
 body{
-    background-color: gray;
+    background-color: lightgray;
 }
+
+
+header{
+    background-color: gray;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+header p{
+    font-size: 30px;
+    color: #fff;
+
+}
+
+header button{
+    font-size: 20px;
+    background-color: blue;
+    border: none;
+    outline: none;
+    padding: 5px;
+    color: #fff;
+    border-radius: 5px;
+
+}
+
+header button:hover{
+    cursor: pointer;
+    background-color: rgb(23, 23, 139);
+}
+
 
 form{
     margin: 3em 0 0 1em;
@@ -40,3 +74,6 @@ form #login{
     background-color: rgb(32, 32, 175);
     margin-bottom: 10px;
 }
+
+
+

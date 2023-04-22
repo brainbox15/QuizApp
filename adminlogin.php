@@ -9,7 +9,10 @@
 </head>
 <body>
 
-
+<header>
+    <div><a href="index.php"><p>QuizLab</p></a></div>
+    <div><a href="index.php"><button>Sign Up</button></a></div>
+</header>
 
 <h2>Admin Login</h2>
 <form action="process.php" method="post">

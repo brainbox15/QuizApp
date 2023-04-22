@@ -8,7 +8,10 @@
     <link rel="stylesheet" href="css/login.css">
 </head>
 <body>
-
+<header>
+    <div><a href="index.php"><p>QuizLab</p></a></div>
+    <div><a href="index.php"><button>Sign Up</button></a></div>
+</header>
 
 
 <h2>Login</h2>
@@ -21,5 +24,7 @@
 <input type="submit" value="login" name="login_user" id="login">
 
 </form>
+
+
 </body>
 </html>

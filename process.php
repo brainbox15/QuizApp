@@ -35,7 +35,7 @@ session_start();
         //   checking if username already exist
         $username_exist = mysqli_query($connect, "SELECT * FROM users WHERE user_name = '$user_name'");
         if (mysqli_num_rows($username_exist) > 0) {
-            exit("<p>User name already exist</p><a href='register.php'>Go back</a>");
+            exit("<p>User name already exist</p><a href='index.php'>Go back</a>");
 
         }
 

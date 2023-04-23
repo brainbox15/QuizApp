@@ -36,7 +36,7 @@
         <td>1</td>
         <td>computer programming</td>
         <td>5</td>
-        <td>5</td>
+        <td>by time</td>
         <td>60s</td>
     </tr>
 

@@ -10,35 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/account.css">
-    <style>
-        *{
-            font-family: cursive;
-
-        }
-
-
-        button{
-            background-color: red;
-            border: none;
-            outline: none;
-            padding: 5px 10px;
-            border-radius: 5px;
-        }
-
-        button a{
-            color: #fff;
-        text-decoration: none;
-
-        }
-
-        h2{
-            text-align: center;
-            font-size: 30px;
-        }
-
-        
-
-    </style>
+    <link rel="stylesheet" href="css/admindash.css">
 </head>
 
 <body>

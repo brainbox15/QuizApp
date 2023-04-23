@@ -22,7 +22,7 @@ session_start();
 
         // confirming pass & confrirm pass matches.
         if ($pass !== $confirm_pass) {
-            exit("<p>password do not match</p><a href='register.php'>Go back</a</p>");
+            exit("<p>password do not match</p><a href='index.php'>Go back</a</p>");
         }
 
         // checking if email already exist
@@ -70,7 +70,7 @@ if(isset($_POST['login_user'])){
     $cryptic_pass = md5($pass);
 
     if($cryptic_pass !== $user_details['password']){
-        exit("<p>Incorrect Password</p><a href='index.php'>Go back</a>");
+        exit("<p>Incorrect Password</p><a href='login.php'>Go back</a>");
     }
 
     // creates a session array 
@@ -85,6 +85,7 @@ if(isset($_POST['login_user'])){
 
 
 
+// Admin login
 if(isset($_POST['login_admin'])){
     $email = $_POST['email'];
     $pass = $_POST['pass'];
@@ -94,7 +95,7 @@ if(isset($_POST['login_admin'])){
 
     // if user does not exist
     if(!mysqli_num_rows($user_exist)){
-        exit("<p>User not found</p> <p><a href='index.php'>Sign up</a></p> <p><a href='login.php'>Go back</a></p>");        
+        exit("<p>Admin not found</p> <p><a href='adminlogin.php'>Go back</a></p>");        
     }
   
     $user_details = mysqli_fetch_assoc($user_exist);
@@ -102,7 +103,7 @@ if(isset($_POST['login_admin'])){
     
 
     if($pass !== $user_details['password']){
-        exit("<p>Incorrect Password</p><a href='index.php'>Go back</a>");
+        exit("<p>Incorrect Password</p><a href='adminlogin.php'>Go back</a>");
     }
 
     // creates a session array 
